@@ -2,6 +2,6 @@
 - [x] Setup Eslint
 - [x] Setup Typescript
 - [x] Setup Tailwind
-- [ ] Setup NVM
+- [x] Setup NVM
 - [ ] Setup Docker
 - [ ] Fill out README

@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+    content: ['./src/**/*.{ts,tsx}', './public/index.html'],
     theme: {
         extend: {
             fontFamily: {
@@ -8,5 +9,8 @@ module.exports = {
             },
         },
     },
-    // ...
+    plugins: [
+        // ...
+        require('@tailwindcss/forms'),
+    ],
 }
